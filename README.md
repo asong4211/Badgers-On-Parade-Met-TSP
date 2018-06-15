@@ -1,6 +1,6 @@
 # Badgers-On-Parade-Met-TSP
 
-![Badgers on Parade]("./badgers.png")
+![Badgers on Parade](./badgers.png)
 
 Recently, my school (University of Wisconsin-Madison) installed multiple badgers statues across the campus as a public art event. All the statues are spread across the campus and downtown Madison area, as well as some outside of the downtown Madison area.
 

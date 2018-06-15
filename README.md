@@ -14,3 +14,11 @@ Here is the map of the final solution (interactive map can be found in the noteb
 ## Packages
 - Julia: I used Julia primarily for this project, with JuMP, which helps formulate the problem in Julia, and I tried out with two different NonConvex Solvers: Cbc and Gurobi, both of them perform about the same; Gurobi is only free if you can have a student license while Cbc is free for everyone to use. I use PyCall in Julia just to use the Python Plotly interactive map since I can't find an easy way to use Plotly's map in Julia.
 - Python: I also used Python just to get the distances between all the statues. I used the Google Distance Matrix API to calculate the walking distance between all the statues. It returns a n by n distance matrix, and stores it in a csv file, which then got used in my Julia file.
+
+
+## Files:
+- `solve.ipynb`: the julia notebook that contain all the mathematical formulations and all the codes to solve the problem
+- `distance_graph`: the python notebook that calculates the distance matrix
+- `distance.csv`: the distance matrix in csv format, calculated using the distance_graph 
+- `location.csv`: the lon and lat of all the badger statues, obtained from buckyonparade.com
+- `final-solution.md`: final solutions

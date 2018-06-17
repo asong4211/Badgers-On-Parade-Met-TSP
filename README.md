@@ -1,6 +1,5 @@
 # Badgers On Parade Met TSP
 
-![Badgers on Parade](./badgers.png)
 
 [**Notebook viewer**](http://nbviewer.jupyter.org/urls/asong4211.github.io/Badgers-On-Parade-Met-TSP/solve.ipynb)
 
@@ -11,7 +10,7 @@ I am interested in finding a route to visit all of the badger statues. This prob
 
 Here is the map of the final solution (interactive map can be found in the notebook):
 ![Final Solution Map](./final-map.png)
-**Notes**: the github jupyter notebook preview doesn't allow one to use the interactive map built by PyPlot, to view the interactive map with solutions, use the nbviewer [here](http://nbviewer.jupyter.org/urls/asong4211.github.io/Badgers-On-Parade-Met-TSP/solve.ipynb):
+**Notes**: For some reason, github's jupyter notebook preview doesn't work and nbviewer only renders one graph. So to run them, one has to clone the file and run it. [here](http://nbviewer.jupyter.org/urls/asong4211.github.io/Badgers-On-Parade-Met-TSP/solve.ipynb):
 
 ## Packages
 - Julia: I used Julia primarily for this project, with JuMP, which helps formulate the problem in Julia, and I tried out with two different NonConvex Solvers: Cbc and Gurobi, both of them perform about the same; Gurobi is only free if you can have a student license while Cbc is free for everyone to use. I use PyCall in Julia just to use the Python Plotly interactive map since I can't find an easy way to use Plotly's map in Julia.
